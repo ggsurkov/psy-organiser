@@ -5,7 +5,7 @@ plugins {
 
 apply plugin: 'io.spring.dependency-management'
 
-group = 'shop-aggregator.com'
+group = 'psy-organiser.com'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
@@ -21,3 +21,5 @@ dependencies {
 	testImplementation 'org.springframework.security:spring-security-test'
 	compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.6'
 }
+
+apply plugin: 'java'
